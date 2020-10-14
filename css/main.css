@@ -1,0 +1,25 @@
+.header {
+    height:100px;
+    width:100%;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:center;
+}
+.boxHeader {
+    font-weight:bold;
+}
+.box:hover {
+    background-color:rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+.box {
+    box-shadow: 4px 7px 10px rgba(0,0,0,0.4);
+    border-radius: 5%;
+    margin-right:2.5%;
+}
+img {
+    height:115px;
+}
+hr {
+    width:85%;
+}
