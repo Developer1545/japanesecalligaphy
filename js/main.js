@@ -1,5 +1,11 @@
+//sound source
 $(document).ready(function(){
    
+})
+$('#shodo').click(function(){
+    var shodo = new Audio('./soundfiles/shodo.mp3');
+    shodo.play();
+    
 })
 function hoverBlock(block) {
     console.log(block);

@@ -23,8 +23,6 @@ hr {
     width:85%;
 }
 .bottomTxt {
-    width:75%;
+    width:100%;
     position: absolute;
-    bottom:0;
-
 }
