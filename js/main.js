@@ -6,9 +6,14 @@ $('#shodo').click(function(){
     var shodo = new Audio('./soundfiles/shodo.mp3');
     shodo.play();
     
-})
+});
+$('#openSources').click(function(){
+    $('#sourcesCited').show();
+});
+$('.close').click(function(){
+    $('#sourcesCited').hide();
+});
 function hoverBlock(block) {
-    console.log(block);
 
     switch(parseInt(block)) {
         case 1:
@@ -46,6 +51,10 @@ function hoverBlock(block) {
         case 9:
             var sushi = new Audio('./soundfiles/sushi.mp3');
             sushi.play();
+            break;
+        case 10:
+            var moon = new Audio('./soundfiles/moon.mp3');
+            moon.play();
             break;
         default:
             console.log("Sound not found!");
